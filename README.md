@@ -1,4 +1,33 @@
-## Q: Do two Salmon runs in a row give exactly the same counts? 
+## Q: Do two Salmon (ver. 1.3.0) runs in a row give exactly the same counts? 
+
+### Conda environment 
+
+```yml
+
+name: salmon
+channels:
+  - conda-forge
+  - bioconda 
+  - defaults 
+dependencies:
+  - salmon 
+  - r-base =4.0.2
+  - bedtools 
+  - gawk 
+  - r-tidyverse
+  - r-data.table
+  - r-ggplot2
+  - r-markdown
+  - r-upsetr
+  - r-ggrepel
+  - r-ggplotify
+  - r-gridextra
+  - r-pheatmap
+  - bioconductor-deseq2
+  - bioconductor-annotationhub
+  - bioconductor-tximport
+
+```
 
 ### 1. with --gcBias & --seqBias 
 

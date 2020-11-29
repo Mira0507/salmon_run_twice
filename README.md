@@ -29,6 +29,9 @@ dependencies:
 
 ```
 
+### Indexing
+Pre-built files from [refgenie](http://refgenomes.databio.org), hg19, salmon_sa_index:default
+
 ### 1. with --gcBias & --seqBias 
 
 1st run: 
